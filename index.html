@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Евгений Евгеньевич — SMM-маркетолог</title>
+    <meta name="description" content="Евгений Евгеньевич — маркетинг и продвижение в социальных сетях: VK, Telegram, YouTube, TikTok.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+
+    <!-- Фоновые декоративные элементы -->
+    <div class="bg" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-lines"></div>
+        <div class="noise"></div>
+    </div>
+
+    <!-- Карточка-визитка -->
+    <main class="card" id="card">
+        <div class="card-glow" aria-hidden="true"></div>
+
+        <div class="card-inner">
+
+            <!-- Верхняя строка: статус + аватар -->
+            <header class="head reveal" style="--d:.1s">
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Открыт для проектов
+                </div>
+                <div class="avatar">
+                    <span>ЕЕ</span>
+                    <i class="avatar-ring"></i>
+                </div>
+            </header>
+
+            <!-- Имя и специализация -->
+            <section class="intro">
+                <p class="eyebrow reveal" style="--d:.25s">SMM · Performance · Контент</p>
+                <h1 class="name reveal" style="--d:.35s">
+                    Евгений<br><span>Евгеньевич</span>
+                </h1>
+                <div class="type-line reveal" style="--d:.5s">
+                    <span id="typewriter"></span><span class="caret"></span>
+                </div>
+            </section>
+
+            <!-- Платформы -->
+            <section class="platforms reveal" style="--d:.65s">
+                <div class="chip" data-tilt>
+                    <svg viewBox="0 0 24 24" class="ic"><use href="#i-vk"/></svg>
+                    <span>VK</span>
+                </div>
+                <div class="chip" data-tilt>
+                    <svg viewBox="0 0 24 24" class="ic"><use href="#i-tg"/></svg>
+                    <span>Telegram</span>
+                </div>
+                <div class="chip" data-tilt>
+                    <svg viewBox="0 0 24 24" class="ic"><use href="#i-yt"/></svg>
+                    <span>YouTube</span>
+                </div>
+                <div class="chip" data-tilt>
+                    <svg viewBox="0 0 24 24" class="ic"><use href="#i-tt"/></svg>
+                    <span>TikTok</span>
+                </div>
+            </section>
+
+            <!-- Описание -->
+            <p class="desc reveal" style="--d:.8s">
+                Строю воронки и контент-стратегии, которые превращают подписчиков
+                в клиентов. Упаковка брендов, рекламные кампании и рост аудитории
+                под ключ.
+            </p>
+
+            <!-- Социальные сети -->
+            <footer class="socials reveal" style="--d:.95s">
+                <a class="social" href="https://t.me/username" target="_blank" rel="noopener" aria-label="Личный Telegram" data-tilt>
+                    <svg viewBox="0 0 24 24"><use href="#i-tg"/></svg>
+                    <em>Личный TG</em>
+                </a>
+                <a class="social" href="https://t.me/channelname" target="_blank" rel="noopener" aria-label="Telegram-канал" data-tilt>
+                    <svg viewBox="0 0 24 24"><use href="#i-tg"/></svg>
+                    <em>Канал</em>
+                </a>
+                <a class="social" href="https://vk.com/username" target="_blank" rel="noopener" aria-label="ВКонтакте" data-tilt>
+                    <svg viewBox="0 0 24 24"><use href="#i-vk"/></svg>
+                    <em>VK</em>
+                </a>
+                <a class="social" href="https://tiktok.com/@username" target="_blank" rel="noopener" aria-label="TikTok" data-tilt>
+                    <svg viewBox="0 0 24 24"><use href="#i-tt"/></svg>
+                    <em>TikTok</em>
+                </a>
+            </footer>
+
+        </div>
+
+        <div class="card-border" aria-hidden="true"></div>
+    </main>
+
+    <!-- SVG-спрайт иконок -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+        <symbol id="i-tg" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M21.9 4.6c.2-1-.7-1.8-1.6-1.4L2.7 10.7c-1 .4-1 1.9.1 2.2l4.7 1.4 1.8 5.6c.3.9 1.4 1.1 2 .4l2.6-2.5 4.6 3.4c.8.6 1.9.1 2.1-.9l2.3-15.7zM8.4 13.4l8.7-6.4c.3-.2.6.2.4.4l-7.1 6.9-.3 3-1.7-3.9z"/>
+        </symbol>
+        <symbol id="i-vk" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12.7 18c-5.7 0-9-4-9.1-10.7h2.9c.1 4.9 2.3 7 4 7.4V7.3h2.7v4.2c1.7-.2 3.5-2.2 4.1-4.2h2.7c-.4 2.6-2.3 4.6-3.7 5.4 1.4.7 3.7 2.6 4.6 5.3h-3c-.7-2.2-2.5-4-4.7-4.3V18h-.5z"/>
+        </symbol>
+        <symbol id="i-yt" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M22 8.2s-.2-1.5-.8-2.1c-.8-.8-1.7-.8-2.1-.9C16 4.9 12 4.9 12 4.9s-4 0-7.1.3c-.4.1-1.3.1-2.1.9C2.2 6.7 2 8.2 2 8.2S1.8 10 1.8 11.8v1.6c0 1.8.2 3.6.2 3.6s.2 1.5.8 2.1c.8.8 1.9.8 2.4.9 1.7.2 6.8.3 6.8.3s4 0 7.1-.3c.4-.1 1.3-.1 2.1-.9.6-.6.8-2.1.8-2.1s.2-1.8.2-3.6v-1.6C22.2 10 22 8.2 22 8.2zM9.8 15.3V8.9l5.6 3.2-5.6 3.2z"/>
+        </symbol>
+        <symbol id="i-tt" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19.6 6.7c-1.5-.5-2.8-1.7-3.4-3.2-.2-.5-.3-1-.4-1.5h-3.1v13.4c0 1.3-1.1 2.4-2.4 2.4-1.3 0-2.4-1.1-2.4-2.4 0-1.4 1.2-2.5 2.6-2.4.3 0 .5.1.8.2V9.9c-.3 0-.6-.1-.8-.1-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6V9.6c1.2.9 2.8 1.5 4.4 1.5V8c-.5 0-1-.1-1.3-.3z"/>
+        </symbol>
+    </svg>
+
+    <script src="script.js"></script>
+</body>
+</html>
